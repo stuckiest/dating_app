@@ -1,12 +1,12 @@
 FactoryGirl.define do
   factory :user do
-    name "MyString"
-age 1
-email "MyString"
-gender "MyString"
-looking_for "MyString"
-city "MyString"
-state "MyString"
+    name "Factory Girl"
+    age 21
+    email "123@gmail.com"
+    gender "Robot"
+    looking_for "Male/Female"
+    city "Butte"
+    state "MT"
   end
 
 end

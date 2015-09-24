@@ -1,5 +1,10 @@
 require 'simplecov'
 SimpleCov.start
+
+require 'factory_girl'
+RSpec.configure do |config|
+  config.include FactoryGirl::Syntax::Methods
+end
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)

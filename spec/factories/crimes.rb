@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :crime do
-    crime "MyString"
-sentence "MyString"
+    crime "Grand Theft Auto"
+sentence "2 years"
   end
 
 end
