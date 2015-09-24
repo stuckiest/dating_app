@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :interest do
-    interest "MyString"
+    interest "Beer"
   end
 
 end
