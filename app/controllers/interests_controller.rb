@@ -14,7 +14,7 @@ class InterestsController < ApplicationController
   def create
     interest = Interest.new(interest_params)
     if interest.save
-      redirect_to interests_path
+      redirect_to new_user_crime_path
     else
       render 'new'
     end

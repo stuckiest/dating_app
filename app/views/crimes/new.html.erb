@@ -1,2 +1,16 @@
-<h1>Crimes#new</h1>
-<p>Find me in app/views/crimes/new.html.erb</p>
+<h2> List your Crimes </h2>
+<%= form_for @crime do |f| %>
+  <%= f.label :crime %>: 
+  <%= f.text_field :crime %>
+
+  <%= f.label :sentence %> 
+  <%= f.text_field :sentence %>
+
+ <%= f.label :crime %>: 
+  <%= f.text_field :crime %>
+
+  <%= f.label :sentence %> 
+  <%= f.text_field :sentence %>  
+
+  <%= f.submit %>
+<% end %>

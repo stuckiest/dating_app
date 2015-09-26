@@ -1,2 +1,27 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1> New User </h1>
+<%= form_for @user do |f| %>
+  <%= f.label :name %>: 
+  <%= f.text_field :name %>
+
+  <%= f.label :age %> 
+  <%= f.text_field :age %>
+
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+
+  <%= f.label :gender %>
+  <%= f.text_field :gender %>
+
+  <%= f.label :looking_for %>
+  <%= f.text_field :looking_for %>
+
+  <%= f.label :city %>
+  <%= f.text_field :city %>
+
+  <%= f.label :state %>
+  <%= f.text_field :state %>
+
+  <%= f.submit %>
+<% end %>
+
+

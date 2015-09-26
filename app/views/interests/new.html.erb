@@ -1,2 +1,14 @@
-<h1>Interests#new</h1>
-<p>Find me in app/views/interests/new.html.erb</p>
+<h2>List your Interests </h2>
+<%= form_for @interest do |f| %>
+  <%= f.label :interest %>: 
+  <%= f.text_field :interest %>
+
+  <%= f.label :interest %> 
+  <%= f.text_field :interest %>
+
+  <%= f.label :interest %>
+  <%= f.text_field :interest %>
+
+  <%= f.submit %>
+<% end %>
+
